@@ -86,6 +86,7 @@ const Cards = () => {
 
                     </div>
                     {cardSearch.map((item, index) =>{
+                        item.quantity = 1;
                         return(
                             <>
                                 <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" key ={index}>
